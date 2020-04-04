@@ -53,3 +53,10 @@ occupy at least half of the size of the hash table as to always have enought spa
 for all value data.
 
 **********************************************************************************
+
+Double_hashing is an implementation of a hash table but with a double hashing 
+method. This time we use multiple hashing functions to create a truly unique 
+hash key or value which prevents hashing collision giving a more optimized
+performance.
+
+**********************************************************************************
