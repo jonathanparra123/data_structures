@@ -14,6 +14,10 @@ each word in the ladder having at least one letter in common with the last word.
 
 ********************************************************************************
 
-Second folder
+BST_Linked_List is similar to word_ladder_BST program but this time it is 
+building a binary tree structure with a linked list pointing to two child
+nodes. The programs first builds the data struct using a linked list then
+it looks for appropriate words to build the ladders. The reason why i build
+a binary tree structure is to decrease the run time of the program.
 
 *********************************************************************************
