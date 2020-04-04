@@ -1,9 +1,12 @@
 # data_structures
+
 -Different types of data structures such as Hash tables, trees, and linked lists.
 
 -Using C++ as the main language.
 
 -Every folder has a different type of data structure.
+
+-bellow is quick explantion of each folder.
 
 *******************************************************************************
 
@@ -40,3 +43,13 @@ sure that the tree is balanced. Since the tree is more balanced now, using a
 binary search will have a linear running time searching.
 
 *********************************************************************************
+
+HashTable folder holds the implementation of a hash table and prints out the 
+results in a ouput txt file. When inserting a value to the hash table the program
+will create a unique hash value and store it in the data structure. I also 
+created both delete and rehash functions in order to manipulate the data stucture
+easier. Lastly, the hash tables also resizes itself whenever the data values 
+occupy at least half of the size of the hash table as to always have enought space
+for all value data.
+
+**********************************************************************************
