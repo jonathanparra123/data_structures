@@ -1,0 +1,15 @@
+#include<iostream>
+#include"Header.h"
+using namespace std;
+
+
+int main()
+{
+    AVLTree tree;
+
+    tree.play();
+
+    cout << "\n";
+
+    return 0;
+}
