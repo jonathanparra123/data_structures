@@ -30,3 +30,13 @@ a right and left child which represent a less or greater number than the parent
 node respectively.
 
 *********************************************************************************
+
+AVL_Balancing creates a tree like structures but unlike a normal binary tree, 
+this program will balance out the tree. It accomplishes this by checking the 
+children nodes and levels of the parent node every time a number gets inserted.
+Everytime a side of the tree starts getting bigger than the other side, the 
+program will rotate the target node right or left with its children nodes to make
+sure that the tree is balanced. Since the tree is more balanced now, using a 
+binary search will have a linear running time searching.
+
+*********************************************************************************
