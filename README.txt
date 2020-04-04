@@ -21,3 +21,12 @@ it looks for appropriate words to build the ladders. The reason why i build
 a binary tree structure is to decrease the run time of the program.
 
 *********************************************************************************
+
+BST_num_recursion deals with numbers instead of words. Everytime a numbers gets
+inserted into the tree, it will print out the actual tree structure with each 
+number and recursively find the height of the tree each time. This programs 
+shows what the binary tree looks like at each iteration with each node having
+a right and left child which represent a less or greater number than the parent
+node respectively.
+
+*********************************************************************************
