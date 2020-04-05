@@ -60,3 +60,11 @@ hash key or value which prevents hashing collision giving a more optimized
 performance.
 
 **********************************************************************************
+
+MinHeap program creates a heap that stores the min value of the set at the head of
+the heap. Since the heap stores the min value at the head it will give you a 
+constant running time in finding a min value, If the min value is deleted then
+the heap will search its nodes for the next value and compare it to the parent
+node's children to determine the new min value to go on top of the heap.
+
+***********************************************************************************
